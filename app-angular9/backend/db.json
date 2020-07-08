@@ -1,0 +1,39 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Caneta BIC Preta",
+      "preco": 5.89
+    },
+    {
+      "id": 2,
+      "nome": "Notebook Mac Pro",
+      "preco": 12000.89
+    },
+    {
+      "id": 3,
+      "nome": "Samsung S20+",
+      "preco": 5000
+    },
+    {
+      "name": "tcc-V1",
+      "price": "123123",
+      "id": 4
+    },
+    {
+      "name": "caneta bic",
+      "price": "123",
+      "id": 5
+    },
+    {
+      "name": "Fone de ouvido",
+      "price": "22",
+      "id": 6
+    },
+    {
+      "name": "Celular Apple",
+      "price": "1234",
+      "id": 7
+    }
+  ]
+}
