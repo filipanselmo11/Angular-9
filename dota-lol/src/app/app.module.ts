@@ -6,20 +6,21 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 
 import {ButtonModule} from 'primeng/button';
-import {InputTextModule} from 'primeng/inputtext';
-import { FormsModule } from '@angular/forms';
-
+import {FieldsetModule} from 'primeng/fieldset';
+import {CardModule} from 'primeng/card';
+import { HomeComponent } from './pages/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ButtonModule,
-    InputTextModule,
-    FormsModule
+    CardModule,
+    FieldsetModule
   ],
   providers: [],
   bootstrap: [AppComponent]
