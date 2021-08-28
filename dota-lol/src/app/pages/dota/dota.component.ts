@@ -23,7 +23,7 @@ export class DotaComponent implements OnInit {
   navigateToAxe(): void {
     this.router.navigate(['/axe']);
   }
-  navigateToBestmaster(): void {
+  navigateToBeastmaster(): void {
     this.router.navigate(['/beastmaster']);
   }
   navigateToBrewmaster(): void {
@@ -216,7 +216,7 @@ export class DotaComponent implements OnInit {
     this.router.navigate(['/ursa']);
   }
   navigateToVegenfulspirit(): void {
-    this.router.navigate(['/vegenfulspirit']);
+    this.router.navigate(['/vengefulspirit']);
   }
   navigateToVenomancer(): void {
     this.router.navigate(['/venomancer']);
@@ -301,6 +301,12 @@ export class DotaComponent implements OnInit {
   }
   navigateToPuck(): void {
     this.router.navigate(['/puck']);
+  }
+  navigateToPugna(): void {
+    this.router.navigate(['/pugna']);
+  }
+  navigateToQop(): void {
+    this.router.navigate(['/qop']);
   }
   navigateToRubick(): void {
     this.router.navigate(['/rubick']);

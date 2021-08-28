@@ -672,6 +672,14 @@ const routes: Routes = [
     component: PuckComponent
   },
   {
+    path: 'pugna',
+    component: PugnaComponent
+  },
+  {
+    path: 'qop',
+    component: QopComponent
+  },
+  {
     path: 'rubick',
     component: RubickComponent
   },
