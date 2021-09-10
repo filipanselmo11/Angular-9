@@ -1,0 +1,10 @@
+.layout-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 2em;
+    width: 100%;
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}

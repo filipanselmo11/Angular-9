@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+
 
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
@@ -269,6 +271,7 @@ import { UrgotComponent } from './pages/urgot/urgot.component';
   declarations: [
     AppComponent,
     HeaderComponent,
+    FooterComponent,
     HomeComponent,
     DotaComponent,
     LolComponent,
@@ -521,7 +524,7 @@ import { UrgotComponent } from './pages/urgot/urgot.component';
     SingedComponent,
     FiddlesticksComponent,
     KennenComponent,
-    UrgotComponent
+    UrgotComponent,
   ],
   imports: [
     BrowserModule,
